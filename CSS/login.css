@@ -1,0 +1,124 @@
+.btnCadastro{
+    background-color: rgb(36, 103, 167);
+    color: white;
+    padding: 8px 10px;
+    font-size: 15px;
+    margin: 0px 0;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    opacity: 0.8;  
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.btnEntrar{
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 10px;
+    font-size: 15px;
+    margin: 0px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.8;  
+    border-radius: 5px; 
+}
+
+/* login */
+.loginUser {
+    position: absolute;
+    left: -40px;
+    background: rgb(87, 85, 85);
+    max-width: 300px;
+    width: 200%;
+    z-index: 7;
+    border-radius: 10px;
+    top:50px;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+#labelEmail{
+    color: white;
+}
+  
+
+#emailUser,  #senhaUser {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 0 20px 0;
+    /* border: none; */
+    background: #f1f1f1;
+}
+  
+#emailUser:focus, #senhaUser:focus {
+    background-color: #ddd;
+    outline: none;
+}
+  
+
+.btnLogin {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+}
+  
+.btnLogin:hover, .btnEntrar:hover, .btnCadastro:hover {
+    opacity: 1;
+}
+
+#btnSair{
+    background-color: rgb(245, 98, 98);
+    font-weight: bold;
+    color: white;
+    padding: 8px 10px;
+    font-size: 15px;
+    margin: 0px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.9;  
+    border-radius: 5px; 
+}
+#nomeUsuario img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+#nomeUsuario{
+    position: absolute;
+    top: 5.5%;
+    left: 77%;
+    width: 200px;
+    color: #36e66b;
+    font-weight: bold;
+
+}
+#idNomeUsuario{
+    margin-top: 5px;
+}
+
+.horarioTopo{
+    align-items: center;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 0%;
+    width: 300px;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+}

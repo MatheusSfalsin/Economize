@@ -1,0 +1,93 @@
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Economize</title>
+	<link href ="style.css" type="text/css" rel="stylesheet">
+	<link href ="receitas.css" type="text/css" rel="stylesheet">
+	<link href="Contas.css" type = "text/css" rel = "stylesheet">
+</head>
+
+<body>
+
+<div class = "topo">
+	<h1 id = "barraTopo"></h1>
+	<p id = 'titulo' onclick="runMenu()">Economize</p>
+	<p id = "infoJanela"></p>
+	<img src="imagens/home.png" alt="imgHome " id='imagemHome' onclick="runMenu()">
+</div>
+
+<div class = "colunm" id = "idColunm">
+	
+	<table class="tg" id = "idTable" >
+		<tr>
+			<td class="tg-0lax0" id = 'FR' onclick = 'runCategoria(this)'>
+				<span style="font-weight:bold " >Plano de Contas</span>
+			</td>
+		</tr>
+	
+		<tr>
+			<td class="tg-0lax1" onclick = 'runCategoria(this)'>
+				<span style="font-weight:bold">Receitas</span>
+			</td>
+		</tr>
+		
+	  	<tr>
+			<td class="tg-0lax2" onclick = 'runCategoria(this)'>
+				<span style="font-weight:bold">Gastos</span>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="tg-0lax3" onclick = 'runCategoria(this)'>
+				<span style="font-weight:bold">Contas</span>
+			</td>
+	  	</tr>
+	  
+	  	<tr>
+			<td class="tg-0lax4" onclick = 'runCategoria(this)'>
+				<span style="font-weight:bold">Economias</span>
+			</td>
+	  	</tr>
+
+	  	<tr>
+			<td class="tg-0lax5" onclick = 'runCategoria(this)'>
+				<span style="font-weight:bold">Metas ou Sonhos</span>
+			</td>
+	  	</tr>
+
+	  	<tr>
+			<td class="tg-0lax6" onclick = 'runCategoria(this)'>
+				<span style="font-weight:bold">Dividas</span>
+			</td>
+	 	 </tr>
+
+	</table>
+
+</div>
+
+<div class = 'Menu' id = 'Menu' >
+	<img src="imagens/ft1.jpg" alt="imagem"  id='imagemFundo'>
+</div>
+
+<div class = "suporte" id = 'IdSuporte'>
+	<img id = 'imgspt' src="contimg1.png" alt="img" top = "5px">
+</div>
+
+<div class = "conteudo" id = "idConteudo">
+	<div class = "editAttributes" id = "idEditAttributes"></div>
+
+	<div class = "listOfRecords" id = "idListOfRecords">
+	</div>
+	<div id="idTabelaHistorico" class="tableHistorico">
+
+	</div>
+</div>
+
+<script src = 'backend.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+.topnav {
+    /* overflow: hidden; */
+    position: absolute;
+    /* left: 0%; */
+    top: 6%;
+    background-color: #333;
+    /* background-color: #4F4F4F; */
+    z-index: 5;
+    
+  }
+  
+  .topnav .topNavElement {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+   
+  }
+  
+  /* .topnav .topNavElement:hover {
+    background-color: #ddd;
+    color: black;
+  } */
+  
+#active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  #sideMenuNav{
+    /* left: -385px; */
+    transition: 0.8s;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+/*   
+  #sideMenuNav:hover {
+    left: 0px;
+  } */
+
+.destaquePontaNav{
+    padding: 0%;
+    color: rgb(69, 248, 114);
+    height: 2px;
+    width: 50px;
+}
+
+.destaqueNav:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+/* .destaquePontaNav ::after {
+    content: "";
+    height: 5px;
+    width: 50px;
+    top: 50%;
+    left: 110%;
+    margin-left: -30px;
+    border-width: 10px;
+    border-style: solid;
+    border-color:  transparent transparent transparent rgb(226, 23, 23);
+  } */
+  /* @keyframes fadeIn {
+    0% { opacity: 0.2; }
+    100% { opacity: 1; }
+} */
+
+.capsIndicadorMes{
+  position: absolute;
+  /* left: 40px; */
+  width: 71px;
+  text-align: center;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#spanControleMes{
+  animation: fadeIn 0.8s ease-in-out;
+  z-index: 6;
+}
+
+#spanControleMesAMenos{
+    position: absolute;
+    text-align: center;
+    left: 15px;
+    /* bottom: 0px; */
+    cursor: pointer;
+    animation: fadeIn 0.8s ease-in-out;
+    z-index: 6;
+}
+
+#spanControleMesAMais{
+    position: absolute;
+    text-align: center;
+    left: 200px;
+    /* bottom: 0px; */
+    animation: fadeIn 0.8s ease-in-out;
+    cursor: pointer;
+    z-index: 6;
+}

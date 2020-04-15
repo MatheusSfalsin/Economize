@@ -1,0 +1,80 @@
+
+#abreNavSideConf{
+    position: absolute;
+    top: 4px;
+    left: 230px;
+}
+
+.sidenavConf {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 12;
+    top: 10%;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+}
+
+.sidenavConf a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenavConf a:hover {
+    color: #f1f1f1;
+}
+
+.sidenavConf .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.sidenavConf span {
+    color: white;
+    font-size: 16px;
+    
+}
+.sidenavConf input {
+    font-weight: bolder;
+    background:#dffcdb ;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.sidenavConf input:hover, .btconfirmConf:hover{
+    /* background:#ffffff ; */
+    opacity: 1;
+}
+
+#inputQuantEconomizar{
+   margin-left: 5px;
+}
+
+.btconfirmConf{
+    font-weight: bold;
+    background-color: rgb(133, 247, 137);
+    color: white;
+    padding: 3px 10px;
+    font-size: 15px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    opacity: 0.8;  
+    border-radius: 5px; 
+}
+
+@media screen and (max-height: 450px) {
+    .sidenavConf {padding-top: 15px;}
+    .sidsidenavConfenav a {font-size: 18px;}
+}

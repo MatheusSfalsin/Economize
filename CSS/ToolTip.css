@@ -1,0 +1,96 @@
+.tooltip {
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+  
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: rgb(248, 248, 248);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 4;
+    margin-left: -60px;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+/* tooltip baixo */
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+  
+
+.toolConta{
+    width: 120px;
+    left: 28.5%;
+    top: 5%;
+}
+
+.toolReceita{
+    width: 120px;
+    left: 150px;
+    top: -10%;
+}
+
+.toolGasto{
+    width: 120px;
+    left: 80%;
+    top: 43%;
+}
+
+.toolContaDados{
+    position: absolute;
+    padding: 5px 10px 10px 10px;
+    width: auto;
+    left: 67%;
+    top: 28%;
+}
+
+.toolReceitaDados{
+    padding: 5px 10px 10px 10px;
+    width: auto;
+    left: 155px;
+    top: 65%;
+}
+.toolGastoDados{
+    padding: 5px 10px 10px 10px;
+    width: auto;
+    left: 81%;
+    top: 61%;
+}
+
+/* .spanMenuConta{
+    padding-bottom: 50px;
+} */
+
+.esquerdaTool::after {
+    content: "";
+    position: absolute;
+    top: 38%;
+    left: 0%;
+    margin-left: -20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+.cimaTool::after {
+    content: "";
+    position: absolute;
+    top: -21%;
+    left: 58%;
+    margin-left: -20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent ;
+}

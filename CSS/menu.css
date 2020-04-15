@@ -1,0 +1,136 @@
+.botaoMenuReceita{
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    left: 22%;
+    top: 48%;
+}
+.menuReceita {
+    position: absolute;
+    left: 28%;
+    top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    /* padding: 30px 9px; */
+    height: 100px;
+    width: 100px;
+    /* background: -webkit-gradient(
+    linear, left top, left bottom,
+    from(#a4c8ff),
+    to(#89b6fa));
+    background: linear-gradient(
+    top,
+    #a4c8ff 0%,
+    #89b6fa); */
+    border-radius: 60px;
+    border: 1px solid #232423;
+    box-shadow:
+    8px 10px 6px rgba(000,000,000,0.4),
+    inset 0px 1px 10px rgba(15,15,15,0.7);
+    text-shadow:
+    0px 0px 1px rgba(000,000,000,0.2),
+    0px 0px 0px rgba(255,255,255,0.3);
+}
+
+.menuReceita img{
+    /* background: url(../receitas12.png); */
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
+.botaoMenuConta{
+    position: absolute;
+    left: 49%;
+    top: 21%;
+    width: 20%;
+    height: 200px;
+}
+.menuConta {
+    position: absolute;
+    left: 15%;
+    top: 27%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    /* padding: 30px 9px; */
+    height: 100px;
+    width: 100px;
+    /* background: -webkit-gradient(
+    linear, left top, left bottom,
+    from(#a4c8ff),
+    to(#89b6fa));
+    background: linear-gradient(
+    top,
+    #a4c8ff 0%,
+    #89b6fa); */
+    border-radius: 60px;
+    border: 1px solid #232423;
+    box-shadow:
+    8px 10px 6px rgba(000,000,000,0.4),
+    inset 0px 1px 10px rgba(15,15,15,0.7);
+    text-shadow:
+    0px 0px 1px rgba(000,000,000,0.2),
+    0px 0px 0px rgba(255,255,255,0.3);
+    
+}
+.menuConta img{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    /* background: url(../contasMenu2.png); */
+} 
+
+.menuGasto{
+    position: absolute;
+    left: 76.5%;
+    top: 48%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    /* padding: 30px 9px; */
+    height: 100px;
+    width: 100px;
+    /* background: -webkit-gradient(
+    linear, left top, left bottom,
+    from(#a4c8ff),
+    to(#89b6fa));
+    background: linear-gradient(
+    top,
+    #a4c8ff 0%,
+    #89b6fa); */
+    border-radius: 60px;
+    border: 1px solid #232423;
+    box-shadow:
+    8px 10px 6px rgba(000,000,000,0.4),
+    inset 0px 1px 10px rgba(15,15,15,0.7);
+    text-shadow:
+    0px 0px 1px rgba(000,000,000,0.2),
+    0px 0px 0px rgba(255,255,255,0.3);
+}
+
+.menuGasto img{
+    position:re;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    /* background: url(../gastos1.png); */
+} 
+
+/* detalhes MENU */
+
+#divCelularMenu{
+    position: absolute;
+    top: 55.5%;
+    left: 77%;
+    height: 34%;
+    width: 11%;
+    transform: rotate(18deg); /* Equal to rotateZ(45deg) */
+    transition: 0.8s;
+    background: #e7e7e7;
+    opacity: 0;
+}

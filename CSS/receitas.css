@@ -1,0 +1,88 @@
+
+.elementListReceita{
+    position: relative;
+    height: 50px;
+    border: 0.1px solid rgb(197, 197, 197);
+    padding: 0%;
+    background: #c8e9c8;
+    /* background: #1cc88a; */
+    font-weight: bold;
+    
+}
+
+#value,#valueClient{
+    position: absolute;
+    font-size: 12px;
+    float: left;
+    left: 2%;
+}
+#idDesc,#descClient{
+    position: absolute;
+    font-size: 12px;
+    float: left;
+    left: 25%;   
+}
+
+
+
+#contaReceitaSpan,#selectReceita{
+    position: absolute;
+    font-size: 12px;
+    float: left;
+    left: 45%;
+    
+}
+
+#dataReceitaSpan,#dataReceita{
+    position: absolute;
+    font-size: 12px;
+    float: left;
+    left: 65%;
+}
+
+#idConfirmListReceita{
+    position: absolute;
+    font-size: 12px;
+    float: left;
+    left: 90%;
+    border-radius: 30px;
+    width: 50px;
+    height: 20px;
+    background: green;
+    color: white;
+}
+
+#dataReceita,#selectReceita,#descClient,#valueClient{
+    font-weight: normal;
+}
+
+/*parte de baixo*/
+/* #valueClient{
+    position: relative;
+    top: 0px;
+    float: left;
+    left: 2%;
+    z-index: 2;
+} */
+
+/* #descClient{
+    position: relative;
+    top: 0px;
+    float: left;
+    left: 10%;
+    z-index: 1;
+} */
+
+/* #dataReceita{
+    position: absolute;
+    top: 0px;
+    left: 33%;
+    z-index: 3;
+} */
+
+/* #selectReceita{
+    position: absolute;
+    top: 0px;
+    left: 4%;
+    z-index: 4;
+} */

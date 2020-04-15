@@ -1,0 +1,25 @@
+- Receitas - criar, Buscar operacoes com a conta
+- Conta - Criar, buscar
+
+-> Registros padrões no banco
+-> tabela - plano: colocar coluna dataCriada
+	- 2 categorias - receita e gasto
+		- descedir se é maior ou menor que 0
+
+->se credito - data efetiva  = 
+
+- receita - precisa de dataPagamento
+
+https://www.ramosdainformatica.com.br/programacao/php/como-manipular-datas-com-php/
+
+Vencimento - conta - banco e classe
+https://www.devmedia.com.br/manipulando-datas-com-php/32966
+
+_______________________________________________________
+
+-> carregamento direto não viável - sem recalculo
+
+ALTER TABLE `conta`
+  ADD CONSTRAINT `conta_ibfk_1` FOREIGN KEY (`idTipoConta`) REFERENCES `tipoconta` (`idTipoConta`);
+
+-> 

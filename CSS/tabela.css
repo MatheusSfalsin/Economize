@@ -1,0 +1,90 @@
+.tableElementos{
+    /* border-bottom-right-radius: 10px; */
+    /* border-top-right-radius: 10px; */
+    border-spacing: 1;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+   
+}
+
+.topoTabela{
+    padding-left: 20px;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    background:  rgb(72, 76, 80);
+    text-align: left;
+    font-family: OpenSans-Regular;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 0 ;
+    padding-right: 10px;
+    border-spacing: 10;
+    border-collapse: collapse;
+    width: 100%;
+   
+}
+.linhaTopo{
+    border-radius: 10px;
+}
+
+/* .topoTabela:hover {
+    /* cursor: pointer; */
+/* }  */
+
+/* .teste{
+    border-spacing: 0;
+    border-collapse: collapse;
+} */
+
+.corpoTabela{
+    padding-left: 20px;
+    height: 40px;
+    text-align: left;
+    font-family: OpenSans-Regular;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: unset;
+    padding-right: 50px;
+    margin: 30px;
+    border-collapse: collapse;
+}
+
+.linhaCorpo{
+    border-radius: 100px;
+}
+
+.topoPlanoReceita,#topoPlanoReceita{
+    background:  #a7eba7;
+}
+
+
+.topoPlanoGasto,#topoPlanoGasto{
+    background: rgb(255, 138, 138);
+}
+
+.topoConta,#topoConta{
+    background: rgb(137, 182, 250);
+}
+.corpoConta{
+    background: rgb(201, 219, 247);
+    padding-right: 0;
+}
+
+.corpoReceita{
+    background:  #e5f8e5;
+}
+
+.corpoGasto{
+    background:   rgb(247, 192, 192);
+}
+
+#modalHeader{
+    background: #666966;
+}
+
+/* .corpoReceita:nth-child(even) {
+    background: #ccc;
+} */
